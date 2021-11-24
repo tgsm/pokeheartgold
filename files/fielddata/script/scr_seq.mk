@@ -23,3 +23,27 @@ $(SCRIPT_NARC): $(SCRIPT_BINS)
 
 # Once this has been reversed, uncomment the below
 # FS_CLEAN_TARGETS += $(SCRIPT_NARC) $(SCRIPT_BINS)
+FS_CLEAN_TARGETS += $(SCRIPT_NARC) $(SCRIPT_OBJS) \
+	$(SCRIPT_DIR)/scr_seq_00000000.bin \
+	$(SCRIPT_DIR)/scr_seq_00000001.bin \
+	$(SCRIPT_DIR)/scr_seq_00000006.bin \
+	$(SCRIPT_DIR)/scr_seq_00000017.bin \
+	$(SCRIPT_DIR)/scr_seq_00000020.bin \
+	$(SCRIPT_DIR)/scr_seq_00000027.bin \
+	$(SCRIPT_DIR)/scr_seq_00000028.bin \
+	$(SCRIPT_DIR)/scr_seq_00000036.bin \
+	$(SCRIPT_DIR)/scr_seq_00000056.bin \
+	$(SCRIPT_DIR)/scr_seq_00000057.bin \
+	$(SCRIPT_DIR)/scr_seq_00000062.bin \
+	$(SCRIPT_DIR)/scr_seq_00000068.bin \
+	$(SCRIPT_DIR)/scr_seq_00000072.bin \
+	$(SCRIPT_DIR)/scr_seq_00000073.bin \
+	$(SCRIPT_DIR)/scr_seq_00000074.bin \
+	$(SCRIPT_DIR)/scr_seq_00000079.bin \
+	$(SCRIPT_DIR)/scr_seq_00000083.bin \
+	$(SCRIPT_DIR)/scr_seq_00000137.bin \
+	$(SCRIPT_DIR)/scr_seq_00000138.bin \
+	$(SCRIPT_DIR)/scr_seq_00000139.bin \
+	$(SCRIPT_DIR)/scr_seq_00000208.bin \
+	$(SCRIPT_DIR)/scr_seq_00000209.bin \
+	$(SCRIPT_DIR)/scr_seq_00000964.bin \
