@@ -51,7 +51,7 @@ void PhotoAlbum_DeletePhotoByIndex(PHOTO_ALBUM *photoAlbum, u8 idx) {
     }
 }
 
-BOOL PhotoAlbum_SetPhotoAtIndex(PHOTO_ALBUM *photoAlbum, const PHOTO *photo, u8 idx) {
+BOOL PhotoAlbum_SetPhotoAtIndex(PHOTO_ALBUM *photoAlbum, const PHOTO *photo, u32 idx) {
     if (idx >= PHOTO_ALBUM_MAX) {
         return FALSE;
     } else {
