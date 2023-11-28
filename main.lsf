@@ -171,7 +171,7 @@ Static main
 	Object src/scrcmd_8.o
 	Object asm/scrcmd_9.o
 	Object src/scrcmd_apricorn.o
-	Object asm/scrcmd_11.o
+	Object src/scrcmd_mystery_gift.o
 	Object src/scrcmd_12.o
 	Object src/scrcmd_money.o
 	Object src/scrcmd_daycare.o
