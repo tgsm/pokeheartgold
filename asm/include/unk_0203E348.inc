@@ -352,9 +352,9 @@
 .public ov111_021E5900
 .public ov111_021E5960
 .public ov111_021E59B8
-.public ov113_021E5900
-.public ov113_021E5968
-.public ov113_021E59C8
+.public UnownReportApp_Init
+.public UnownReportApp_Run
+.public UnownReportApp_Exit
 .public ov121_021E5900
 .public ov121_021E590C
 .public ov121_021E59BC

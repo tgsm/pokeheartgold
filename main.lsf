@@ -1129,10 +1129,11 @@ Overlay OVY_112
     After main
     Object asm/overlay_112.o
 }
-Overlay OVY_113
+Overlay unown_report
 {
     After main
-    Object asm/overlay_113.o
+    Object src/unown_report_app.o
+    Object asm/unown_report_app_rodata.o
 }
 Overlay OVY_114
 {

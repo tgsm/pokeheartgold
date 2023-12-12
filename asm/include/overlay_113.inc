@@ -116,6 +116,6 @@
 .public MI_CpuFill8
 .public _s32_div_f
 .public gSystem
-.public ov113_021E5900
-.public ov113_021E5968
-.public ov113_021E59C8
+.public UnownReportApp_Init
+.public UnownReportApp_Run
+.public UnownReportApp_Exit

@@ -81,7 +81,7 @@ _020FA374:
 _020FA384:
 	.word ov16_0220196C, ov16_022019B8, ov16_02201A04, FS_OVERLAY_ID(OVY_16)
 _020FA394:
-	.word ov113_021E5900, ov113_021E5968, ov113_021E59C8, FS_OVERLAY_ID(OVY_113)
+	.word UnownReportApp_Init, UnownReportApp_Run, UnownReportApp_Exit, FS_OVERLAY_ID(unown_report)
 _020FA3A4:
 	.word ov110_AlphPuzzle_OvyInit, ov110_AlphPuzzle_OvyExec, ov110_AlphPuzzle_OvyExit, FS_OVERLAY_ID(OVY_110)
 _020FA3B4:
