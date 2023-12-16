@@ -300,7 +300,7 @@ Static main
 	Object asm/unk_02091664.o
 	Object src/field_blackthorn_tutors.o
 	Object asm/unk_02091880.o
-	Object asm/unk_02091CDC.o
+	Object src/delete_savedata_app.o
 	Object asm/unk_020921A4.o
 	Object src/save_data_read_error.o
 	Object src/save_data_write_error.o
