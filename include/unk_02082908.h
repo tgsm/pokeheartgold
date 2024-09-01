@@ -8,7 +8,7 @@ extern const OVY_MGR_TEMPLATE _02102610;
 
 typedef struct NamingScreenArgs {
     int unk0;
-    u8 unk4[0x4];
+    u32 unk4;
     int form;
     u8 unkC[0x4];
     int gender;
