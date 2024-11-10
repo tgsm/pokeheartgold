@@ -1,6 +1,6 @@
 .PHONY: all clean
 
-CC := gcc
+CC := gcc-13
 CFLAGS := -O3
 
 .PHONY: all clean

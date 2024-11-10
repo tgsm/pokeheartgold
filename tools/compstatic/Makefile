@@ -1,4 +1,4 @@
-CC := gcc
+CC := gcc-13
 CFLAGS := -O3
 
 SRCS = $(wildcard *.c)

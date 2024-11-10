@@ -2,7 +2,7 @@
 
 OUT_FILE=ctx.c
 
-GCC=gcc
+GCC=gcc-13
 FLAGS="-E -P -dD -undef"
 INCLUDES="-Iinclude -Iinclude/library -Ifiles -Ilib/include"
 DEFINES="-DHEARTGOLD -DGAME_REMASTER=0 -DENGLISH -DPM_KEEP_ASSERTS -DSDK_ARM9 -DSDK_CODE_ARM -DSDK_FINALROM"

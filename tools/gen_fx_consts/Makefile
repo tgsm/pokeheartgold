@@ -1,4 +1,4 @@
-CC = gcc
+CC = gcc-13
 CFLAGS := -O3 -g -DNDEBUG -DSOURCE_DIR="\"$(CURDIR)\""
 
 SRCS := main.c fx_encode.c fx_data.c

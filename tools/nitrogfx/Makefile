@@ -1,4 +1,4 @@
-CC = gcc
+CC = gcc-13
 
 HAVE_LIBPNG := $(shell pkg-config libpng; echo $?)
 
