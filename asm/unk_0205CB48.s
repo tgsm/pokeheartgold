@@ -1974,7 +1974,8 @@ _0205DA90:
 	mov r0, #1
 	orr r4, r0
 _0205DAA2:
-	add r0, r4, #0
+	mov r0, #0 ; hack to disable player collision
+	; add r0, r4, #0
 	pop {r3, r4, r5, r6, r7, pc}
 	.balign 4, 0
 	thumb_func_end sub_0205DA34
