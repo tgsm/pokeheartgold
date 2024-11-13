@@ -10,7 +10,7 @@
  * Pass NO_GF_ASSERT=1 to make to remove these.
  */
 #ifdef PM_KEEP_ASSERTS
-#define GF_ASSERT(expr) ((expr) ? (void)0 : GF_AssertFail())
+#define GF_ASSERT(expr) ((expr) ? (void)0 : tgsm_assert_failed(#expr, __FILE__, __LINE__))
 #else
 #define GF_ASSERT(...) ((void)0)
 #endif // PM_KEEP_ASSERTS
